@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #f5f5f7;
+    color: #1d1d1f;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #6e6e73;
+    font-size: 1.1rem;
+}
+
+.last-updated {
+    font-size: 0.85rem;
+    color: #86868b;
+    margin-top: 8px;
+}
+
+/* Section 1: Select */
+.select-section {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.select-section label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.select-section select {
+    padding: 12px 24px;
+    font-size: 1.1rem;
+    border: 2px solid #d2d2d7;
+    border-radius: 12px;
+    background: white;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236e6e73' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 16px center;
+}
+
+.select-section select:focus {
+    outline: none;
+    border-color: #007aff;
+}
+
+/* Section 2: Price */
+.price-section {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 1px solid #e5e5ea;
+    border-bottom: 1px solid #e5e5ea;
+    margin-bottom: 30px;
+}
+
+.price-section h2 {
+    font-weight: 500;
+    color: #6e6e73;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.price-amount {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1d1d1f;
+}
+
+.price-label {
+    font-size: 1.2rem;
+    color: #6e6e73;
+    margin-left: 8px;
+}
+
+/* Section 3: Conditions */
+.conditions-section h2 {
+    text-align: center;
+    font-weight: 500;
+    color: #6e6e73;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.conditions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.condition-card {
+    background: #f8f8fa;
+    border-radius: 16px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.condition-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+}
+
+.condition-card h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #6e6e73;
+    margin-bottom: 6px;
+}
+
+.condition-price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1d1d1f;
+}
+
+/* CTA */
+.cta-section {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background: #f0f7ff;
+    border-radius: 16px;
+}
+
+.cta-section a {
+    color: #007aff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.cta-section a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5ea;
+    font-size: 0.85rem;
+    color: #86868b;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .conditions-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .price-amount {
+        font-size: 2.8rem;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+}
