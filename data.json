@@ -4,175 +4,175 @@
     "iPhone 11": {
       "capacities": {
         "64GB": {
-          "likeNew": 260,
-          "good": 220,
-          "fair": 180,
-          "cracked": 140,
-          "defective": 80
+          "likeNew": 130,
+          "good": 110,
+          "fair": 90,
+          "cracked": 70,
+          "defective": 40
         },
         "128GB": {
-          "likeNew": 290,
-          "good": 250,
-          "fair": 205,
-          "cracked": 160,
-          "defective": 95
+          "likeNew": 145,
+          "good": 125,
+          "fair": 103,
+          "cracked": 80,
+          "defective": 48
         },
         "256GB": {
-          "likeNew": 330,
-          "good": 285,
-          "fair": 235,
-          "cracked": 185,
-          "defective": 110
+          "likeNew": 165,
+          "good": 143,
+          "fair": 118,
+          "cracked": 93,
+          "defective": 55
         }
       }
     },
     "iPhone 12": {
       "capacities": {
         "64GB": {
-          "likeNew": 360,
-          "good": 310,
-          "fair": 255,
-          "cracked": 200,
-          "defective": 120
+          "likeNew": 180,
+          "good": 155,
+          "fair": 128,
+          "cracked": 100,
+          "defective": 60
         },
         "128GB": {
-          "likeNew": 400,
-          "good": 345,
-          "fair": 285,
-          "cracked": 225,
-          "defective": 135
+          "likeNew": 200,
+          "good": 173,
+          "fair": 143,
+          "cracked": 113,
+          "defective": 68
         },
         "256GB": {
-          "likeNew": 450,
-          "good": 390,
-          "fair": 325,
-          "cracked": 255,
-          "defective": 155
+          "likeNew": 225,
+          "good": 195,
+          "fair": 163,
+          "cracked": 128,
+          "defective": 78
         }
       }
     },
     "iPhone 13": {
       "capacities": {
         "128GB": {
-          "likeNew": 500,
-          "good": 430,
-          "fair": 355,
-          "cracked": 280,
-          "defective": 170
+          "likeNew": 250,
+          "good": 215,
+          "fair": 178,
+          "cracked": 140,
+          "defective": 85
         },
         "256GB": {
-          "likeNew": 560,
-          "good": 485,
-          "fair": 400,
-          "cracked": 315,
-          "defective": 195
+          "likeNew": 280,
+          "good": 243,
+          "fair": 200,
+          "cracked": 158,
+          "defective": 98
         },
         "512GB": {
-          "likeNew": 640,
-          "good": 555,
-          "fair": 460,
-          "cracked": 365,
-          "defective": 225
+          "likeNew": 320,
+          "good": 278,
+          "fair": 230,
+          "cracked": 183,
+          "defective": 113
         }
       }
     },
     "iPhone 14": {
       "capacities": {
         "128GB": {
-          "likeNew": 620,
-          "good": 535,
-          "fair": 445,
-          "cracked": 350,
-          "defective": 215
+          "likeNew": 310,
+          "good": 268,
+          "fair": 223,
+          "cracked": 175,
+          "defective": 108
         },
         "256GB": {
-          "likeNew": 690,
-          "good": 595,
-          "fair": 495,
-          "cracked": 390,
-          "defective": 240
+          "likeNew": 345,
+          "good": 298,
+          "fair": 248,
+          "cracked": 195,
+          "defective": 120
         },
         "512GB": {
-          "likeNew": 780,
-          "good": 675,
-          "fair": 560,
-          "cracked": 440,
-          "defective": 275
+          "likeNew": 390,
+          "good": 338,
+          "fair": 280,
+          "cracked": 220,
+          "defective": 138
         }
       }
     },
     "iPhone 15": {
       "capacities": {
         "128GB": {
-          "likeNew": 740,
-          "good": 640,
-          "fair": 535,
-          "cracked": 420,
-          "defective": 260
+          "likeNew": 370,
+          "good": 320,
+          "fair": 268,
+          "cracked": 210,
+          "defective": 130
         },
         "256GB": {
-          "likeNew": 820,
-          "good": 710,
-          "fair": 595,
-          "cracked": 470,
-          "defective": 290
+          "likeNew": 410,
+          "good": 355,
+          "fair": 298,
+          "cracked": 235,
+          "defective": 145
         },
         "512GB": {
-          "likeNew": 920,
-          "good": 795,
-          "fair": 665,
-          "cracked": 525,
-          "defective": 325
+          "likeNew": 460,
+          "good": 398,
+          "fair": 333,
+          "cracked": 263,
+          "defective": 163
         }
       }
     },
     "iPhone 16": {
       "capacities": {
         "128GB": {
-          "likeNew": 860,
-          "good": 745,
-          "fair": 625,
-          "cracked": 490,
-          "defective": 305
+          "likeNew": 430,
+          "good": 373,
+          "fair": 313,
+          "cracked": 245,
+          "defective": 153
         },
         "256GB": {
-          "likeNew": 950,
-          "good": 825,
-          "fair": 690,
-          "cracked": 545,
-          "defective": 340
+          "likeNew": 475,
+          "good": 413,
+          "fair": 345,
+          "cracked": 273,
+          "defective": 170
         },
         "512GB": {
-          "likeNew": 1060,
-          "good": 920,
-          "fair": 770,
-          "cracked": 610,
-          "defective": 380
+          "likeNew": 530,
+          "good": 460,
+          "fair": 385,
+          "cracked": 305,
+          "defective": 190
         }
       }
     },
     "iPhone 17": {
       "capacities": {
         "128GB": {
-          "likeNew": 980,
-          "good": 850,
-          "fair": 710,
-          "cracked": 560,
-          "defective": 350
+          "likeNew": 490,
+          "good": 425,
+          "fair": 355,
+          "cracked": 280,
+          "defective": 175
         },
         "256GB": {
-          "likeNew": 1080,
-          "good": 940,
-          "fair": 785,
-          "cracked": 620,
-          "defective": 390
+          "likeNew": 540,
+          "good": 470,
+          "fair": 393,
+          "cracked": 310,
+          "defective": 195
         },
         "512GB": {
-          "likeNew": 1200,
-          "good": 1040,
-          "fair": 870,
-          "cracked": 690,
-          "defective": 430
+          "likeNew": 600,
+          "good": 520,
+          "fair": 435,
+          "cracked": 345,
+          "defective": 215
         }
       }
     }
