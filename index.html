@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone Flip - Buy & Sell Prices</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📱 iPhone Flip Tool</h1>
+            <p>Check average prices and our buy offers for iPhones in Quebec</p>
+            <p class="last-updated">Last Updated: <span id="updateDate"></span></p>
+        </header>
+
+        <main>
+            <!-- Section 1: Select iPhone Model -->
+            <section class="select-section">
+                <label for="modelSelect">Select iPhone Model:</label>
+                <select id="modelSelect">
+                    <option value="iPhone 11">iPhone 11</option>
+                    <option value="iPhone 12">iPhone 12</option>
+                    <option value="iPhone 13" selected>iPhone 13</option>
+                    <option value="iPhone 14">iPhone 14</option>
+                    <option value="iPhone 15">iPhone 15</option>
+                    <option value="iPhone 16">iPhone 16</option>
+                    <option value="iPhone 17">iPhone 17</option>
+                </select>
+            </section>
+
+            <!-- Section 2: Average Market Price -->
+            <section class="price-section">
+                <h2>Average Market Price</h2>
+                <div class="price-display">
+                    <span class="price-amount" id="averagePrice">$550</span>
+                    <span class="price-label">CAD</span>
+                </div>
+            </section>
+
+            <!-- Section 3: Our Buy Prices by Condition -->
+            <section class="conditions-section">
+                <h2>We Buy Your iPhone For:</h2>
+                <div class="conditions-grid">
+                    <div class="condition-card">
+                        <h3>✨ Like New</h3>
+                        <p class="condition-price" id="likeNewPrice">$440</p>
+                    </div>
+                    <div class="condition-card">
+                        <h3>👍 Good</h3>
+                        <p class="condition-price" id="goodPrice">$385</p>
+                    </div>
+                    <div class="condition-card">
+                        <h3>📱 Used</h3>
+                        <p class="condition-price" id="usedPrice">$330</p>
+                    </div>
+                    <div class="condition-card">
+                        <h3>🔧 Fair</h3>
+                        <p class="condition-price" id="fairPrice">$275</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cta-section">
+                <p>📞 Ready to sell? <a href="#">Contact us</a> to get a quote!</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2026 iPhone Flip Quebec | Prices updated monthly</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
