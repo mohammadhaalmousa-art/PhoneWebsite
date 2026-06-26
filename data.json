@@ -2,66 +2,178 @@
   "lastUpdated": "2026-06-25",
   "prices": {
     "iPhone 11": {
-      "average": 350,
-      "conditions": {
-        "likeNew": 280,
-        "good": 245,
-        "used": 210,
-        "fair": 175
+      "capacities": {
+        "64GB": {
+          "likeNew": 260,
+          "good": 220,
+          "fair": 180,
+          "cracked": 140,
+          "defective": 80
+        },
+        "128GB": {
+          "likeNew": 290,
+          "good": 250,
+          "fair": 205,
+          "cracked": 160,
+          "defective": 95
+        },
+        "256GB": {
+          "likeNew": 330,
+          "good": 285,
+          "fair": 235,
+          "cracked": 185,
+          "defective": 110
+        }
       }
     },
     "iPhone 12": {
-      "average": 450,
-      "conditions": {
-        "likeNew": 360,
-        "good": 315,
-        "used": 270,
-        "fair": 225
+      "capacities": {
+        "64GB": {
+          "likeNew": 360,
+          "good": 310,
+          "fair": 255,
+          "cracked": 200,
+          "defective": 120
+        },
+        "128GB": {
+          "likeNew": 400,
+          "good": 345,
+          "fair": 285,
+          "cracked": 225,
+          "defective": 135
+        },
+        "256GB": {
+          "likeNew": 450,
+          "good": 390,
+          "fair": 325,
+          "cracked": 255,
+          "defective": 155
+        }
       }
     },
     "iPhone 13": {
-      "average": 550,
-      "conditions": {
-        "likeNew": 440,
-        "good": 385,
-        "used": 330,
-        "fair": 275
+      "capacities": {
+        "128GB": {
+          "likeNew": 500,
+          "good": 430,
+          "fair": 355,
+          "cracked": 280,
+          "defective": 170
+        },
+        "256GB": {
+          "likeNew": 560,
+          "good": 485,
+          "fair": 400,
+          "cracked": 315,
+          "defective": 195
+        },
+        "512GB": {
+          "likeNew": 640,
+          "good": 555,
+          "fair": 460,
+          "cracked": 365,
+          "defective": 225
+        }
       }
     },
     "iPhone 14": {
-      "average": 650,
-      "conditions": {
-        "likeNew": 520,
-        "good": 455,
-        "used": 390,
-        "fair": 325
+      "capacities": {
+        "128GB": {
+          "likeNew": 620,
+          "good": 535,
+          "fair": 445,
+          "cracked": 350,
+          "defective": 215
+        },
+        "256GB": {
+          "likeNew": 690,
+          "good": 595,
+          "fair": 495,
+          "cracked": 390,
+          "defective": 240
+        },
+        "512GB": {
+          "likeNew": 780,
+          "good": 675,
+          "fair": 560,
+          "cracked": 440,
+          "defective": 275
+        }
       }
     },
     "iPhone 15": {
-      "average": 750,
-      "conditions": {
-        "likeNew": 600,
-        "good": 525,
-        "used": 450,
-        "fair": 375
+      "capacities": {
+        "128GB": {
+          "likeNew": 740,
+          "good": 640,
+          "fair": 535,
+          "cracked": 420,
+          "defective": 260
+        },
+        "256GB": {
+          "likeNew": 820,
+          "good": 710,
+          "fair": 595,
+          "cracked": 470,
+          "defective": 290
+        },
+        "512GB": {
+          "likeNew": 920,
+          "good": 795,
+          "fair": 665,
+          "cracked": 525,
+          "defective": 325
+        }
       }
     },
     "iPhone 16": {
-      "average": 850,
-      "conditions": {
-        "likeNew": 680,
-        "good": 595,
-        "used": 510,
-        "fair": 425
+      "capacities": {
+        "128GB": {
+          "likeNew": 860,
+          "good": 745,
+          "fair": 625,
+          "cracked": 490,
+          "defective": 305
+        },
+        "256GB": {
+          "likeNew": 950,
+          "good": 825,
+          "fair": 690,
+          "cracked": 545,
+          "defective": 340
+        },
+        "512GB": {
+          "likeNew": 1060,
+          "good": 920,
+          "fair": 770,
+          "cracked": 610,
+          "defective": 380
+        }
       }
     },
     "iPhone 17": {
-      "average": 950,
-      "conditions": {
-        "likeNew": 760,
-        "good": 665,
-        "used": 570,
-        "fair": 475
+      "capacities": {
+        "128GB": {
+          "likeNew": 980,
+          "good": 850,
+          "fair": 710,
+          "cracked": 560,
+          "defective": 350
+        },
+        "256GB": {
+          "likeNew": 1080,
+          "good": 940,
+          "fair": 785,
+          "cracked": 620,
+          "defective": 390
+        },
+        "512GB": {
+          "likeNew": 1200,
+          "good": 1040,
+          "fair": 870,
+          "cracked": 690,
+          "defective": 430
+        }
       }
     }
   }
