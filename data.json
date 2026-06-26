@@ -1,0 +1,68 @@
+{
+  "lastUpdated": "2026-06-25",
+  "prices": {
+    "iPhone 11": {
+      "average": 350,
+      "conditions": {
+        "likeNew": 280,
+        "good": 245,
+        "used": 210,
+        "fair": 175
+      }
+    },
+    "iPhone 12": {
+      "average": 450,
+      "conditions": {
+        "likeNew": 360,
+        "good": 315,
+        "used": 270,
+        "fair": 225
+      }
+    },
+    "iPhone 13": {
+      "average": 550,
+      "conditions": {
+        "likeNew": 440,
+        "good": 385,
+        "used": 330,
+        "fair": 275
+      }
+    },
+    "iPhone 14": {
+      "average": 650,
+      "conditions": {
+        "likeNew": 520,
+        "good": 455,
+        "used": 390,
+        "fair": 325
+      }
+    },
+    "iPhone 15": {
+      "average": 750,
+      "conditions": {
+        "likeNew": 600,
+        "good": 525,
+        "used": 450,
+        "fair": 375
+      }
+    },
+    "iPhone 16": {
+      "average": 850,
+      "conditions": {
+        "likeNew": 680,
+        "good": 595,
+        "used": 510,
+        "fair": 425
+      }
+    },
+    "iPhone 17": {
+      "average": 950,
+      "conditions": {
+        "likeNew": 760,
+        "good": 665,
+        "used": 570,
+        "fair": 475
+      }
+    }
+  }
+}
